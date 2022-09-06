@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Latihan Layout Web Table</title></head>
+	<body>
+		<table align="center" border="1" cellpadding="20" cellspacing="0"
+		        width="100%">
+			<tr>
+				<td colspan="3" height="100" background="https://www.google.com/imgres?imgurl=https%3A%2F%2Ftiento.co.id%2Fwp-content%2Fuploads%2F2020%2F01%2F3-Web-banner-1500x500-1.jpg&imgrefurl=https%3A%2F%2Ftiento.co.id%2F3-web-banner-1500x500%2F&tbnid=0QIMRA-y-EErtM&vet=12ahUKEwj7lMqqg9z5AhVXj9gFHcKGBYcQMygBegUIARDAAQ..i&docid=S84coRTtDwtNiM&w=1500&h=500&itg=1&q=banner%20website%201500x500&ved=2ahUKEwj7lMqqg9z5AhVXj9gFHcKGBYcQMygBegUIARDAAQ"></td>
+			</tr>
+            <tr>
+				<td width="20%" bgcolor="blue" valign="top">
+                    <fieldset>
+                        <legend>Link</legend>
+                        <ul>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Gallery</li>
+                            <li>Contact</li>
+                        </ul>
+                    </fieldset>
+                </td>
+				<td width="60%">
+                <!------awal konten halaman utama------>
+                <h1 align="center">
+                    <marquee direction="right" scrolldelay="300">
+                    Welcome To My Homepage
+                    </marquee>
+                </h1>
+                <hr/> <!-- horizontal rule -->
+                <p align="justify">
+                <img src="./Kepen.jpg" width="10%" align="left" hspace="10"/>
+                Halo, Assalamualaikum Wr. Wb.
+                Shalom, Om Swastiastu, Namo Budaya, Salam Kebajikan.
+                Selamat Sejahtera bagi kita semua.
+                </p>
+                <p align="center">
+                Perkenalkan nama saya Yeremia Kevin Kristananda bisa di panggil Kepen. Saya adalah seorang mahasiswa Universitas Nusantara PGRI Kediri, Jurusan Teknik. Prodi Teknik Informatika. 
+                saya di kampus mengikuti organisasi HIMA Prodi TI dan di HIMA tersebut saya menjadi wakil ketua. pada saat saya menjabat,
+                saya melakukan banyak pekerjaan seperti mengadakan acara ITFEST, 
+                melakukan interview pada adik adik tingkat, ikut andil dan ambil bagian pada pertemuan Dewan ORMAWA/LEMAWA. 
+                Saya selalu berikan saran dan kritik mengenai pembahasan PKKMB. 
+                </p>
+                <p align="right">
+                memang cukup sulit untuk mengurus HIMA, tapi saya suka dan senang menjalaninya. Sekian perkenalan dari saya. Terima kasih. 
+                </p>
+                <fieldset>
+                    <legend>
+                        <font size="5" color="green" face="calibri">
+                            <b><i><u>Tentang Saya</u></i></b>
+                        </font>
+                    </legend>
+                        <ol type="A">
+                            <li>Pendidikan
+                                <ul type="square">
+                                    <li>SDN 2 Pasirangin </li>
+                                    <li>SDN 2 Kandat</li>
+                                    <li>SMP Widya Kusuma</li>
+                                    <li>SMAN 1 Ngadiluwih</li>
+                                    <li>Universitas Nusantara PGRI Kediri</li>
+                                        <ol type="1">
+                                            <li>Semester 1</li>
+                                            <li>Semester 2</li>
+                                            <li>Semester 3</li>
+                                            <li>Semester 4</li>
+                                            <li>Semester 5</li>
+                                            <li>Semester 6</li>
+                                            <li>Semester 7</li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Hobby
+                                <ul type="circle">
+                                    <li>Bermain game dan mengikuti tournament-nya</li>
+                                    <li>Travelling</li>
+                                    <li>Melihat Film</li>
+                                    <li>Berburu Kuliner</li>
+                                </ul>
+                            </li>
+                            <li>Favorite Menu
+                                <ul type="disc">
+                                    <li>Makanan</li>
+                                        <ol type="1">
+                                            <li>Nasi Goreng</li>
+                                            <li>Sate</li>
+                                            <li>Bakso</li>
+                                            <li>Mie Ayam</li>
+                                        </ol>
+                                    <li>Minuman</li>
+                                        <ol type="1">
+                                            <li>Es Teh Manis</li>
+                                            <li>Es Dawet</li>
+                                            <li>Es Josua</li>
+                                            <li>Susu Jahe Anget</li>
+                                        </ol>
+                                </ul>
+                            </li>
+                        </ol>
+                </fieldset>
+                <!------akhir konten halaman utama------>
+                </td>
+				<td width="20%" bgcolor="aurora" valign="top">
+                    <fieldset>
+                        <legend>Tautan</legend>
+                        <ul>
+                            <li>Kampus Merdeka</li>
+                            <li>NF Computer</li>
+                            <li>W3school</li>
+                            <li>Ruang Guru</li>
+                        </ul>
+                    </fieldset>
+                </td>
+			</tr>
+            <tr bgcolor="azure">
+				<th colspan="3"> Design by: Kepen @2092 MSIB Fullstack Web Developer
+                Kampus Merdeka</th>
+			</tr>
+		</table>
+	</body>
+</html
